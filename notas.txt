@@ -1,0 +1,35 @@
+Hola, aquí pongo las cosas que hice para cumplir con los requisitos que pidió.
+El servidor que usé para probar la app fue la extensión de Chrome 200 Ok.
+
+Lo que se pidió:
+
+  - Al menos usar 2 controllers.
+    - playerController.js
+	- teamsController.js
+
+  - Usar factories, services o ambos en los controllers.
+    - factories/CrudServicePlayer.js se usa para agregar jugadores, quitarlos y enviarlos a playerController.js
+	- services/CrudServiceTeam.js se usa para agregar, remover, modificar y enviar los equipos a teamsController.js
+
+  - Injectar almenos una libreria en el modulo y usarla en algun controller.
+    - Se hizo uso de las librerías LocalStorageModule y ngRoute
+
+  - Usar al menos 3 eventos con angularJS.
+    - ng-click en players/create.html para llamara a la función que agrega a los jugadores
+	- ng-mouseover y ng-mouseleave en players/create.html para mostrar y ocultar un mensaje de advertencia al intentar agregar jugadores
+	- ng-focus y ng-blur en players/index.html y teams/index.html para mostrar y ocultar un mensaje al empezar a buscar
+
+  - Realizar llamadas AJAX $http.
+	- En factories/CrudServicePlayer.js se hace una llamada ajax para obtener los jugadores que se van a agregar
+
+  - Usar y crear filtros de angular
+    - El filtro de filters/stringURLToLink.js sirve para tomar una cadena y agregarle las etiquetas html para convertirla en un enlace.
+	- Los filtros que se usaron fueron orderBy (para ordenar por Ids), filter (para buscar texto en las tablas), y currency
+
+  - Al menos una directiva y usuarla.
+	- La directiva directives/hideTableIfEmpty.js sirve para que no se muestren los headers de la tabla cuando no hay información y en su lugar se muestre un mensaje indicando que no hay registros.
+	
+  - La App deve ser SPA usando ngRoute
+    - Me parece que si quedó como SPA.
+	
+Saludos.

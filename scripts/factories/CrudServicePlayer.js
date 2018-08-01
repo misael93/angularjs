@@ -14,7 +14,7 @@ app.factory("CrudServicePlayer", ["localStorageService", "$http", function(local
     crudServicePlayer.add = function() {
         crudServicePlayer.players = [];
         crudServicePlayer.response = {success: false};
-        $http.get("../../players.json")
+        $http.get("https://raw.githubusercontent.com/misael93/angularjs/master/players.json")
             .then(data => {
                 data.data.forEach(player => {
                     crudServicePlayer.players.push(player);
