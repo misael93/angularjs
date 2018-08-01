@@ -1,0 +1,8 @@
+<h1 class="mt-3">Add players</h1>
+
+Hello, with this button you can load some random players from a JSON file.
+<br>
+<button class="btn btn-success mt-3" ng-click="add()" ng-mouseover="flag = true" ng-mouseleave="flag = false">Add</button>
+
+<p class="text-danger" ng-show="flag">NOTE: If you click the Add button, the current players will be deleted.</p>
+<p ng-class="response.success ? 'text-success' : 'text-danger'">{{ response.message }}</p>

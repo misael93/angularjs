@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appModule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea AngularJS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="teamsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Teams
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="teamsDropdown">
+                        <a class="dropdown-item" href="#!/teams">Index</a>
+                        <a class="dropdown-item" href="#!/teams/create">Add</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="playersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Players
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="playersDropdown">
+                        <a class="dropdown-item" href="#!/players">Index</a>
+                        <a class="dropdown-item" href="#!/players/create">Add</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- <ul>
+            <li><a href="#!/teams">Teams</a></li>
+            <li><a href="#!/teams/create">Add team</a></li>
+            <li><a href="#!/players">Players</a></li>
+            <li><a href="#!/players/create">Add player</a></li>
+        </ul> -->
+        <div ng-view></div>
+    </div>
+
+    <script src="scripts/components/angular.min.js"></script>
+    <script src="scripts/components/angular-local-storage.js"></script>
+    <script src="scripts/components/angular-route.js"></script>
+    <script src="scripts/appModule.js"></script>
+    <script src="scripts/services/CrudServiceTeam.js"></script>
+    <script src="scripts/factories/CrudServicePlayer.js"></script>
+    <script src="scripts/controllers/teamsController.js"></script>
+    <script src="scripts/controllers/playerController.js"></script>
+    <script src="scripts/filters/stringURLToLink.js"></script>
+    <script src="scripts/directives/hideTableIfEmpty.js"></script>
+
+    <script src="scripts/bootstrap/jquery-3.3.1.slim.min.js"></script>
+    <script src="scripts/bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "name": "Camacho West",
+      "position": "Full-back",
+      "country": "Singapore",
+      "birth": "07/11/1983"
+    },
+    {
+      "id": 2,
+      "name": "Bailey Harmon",
+      "position": "Full-back",
+      "country": "Cape Verde",
+      "birth": "10/31/1996"
+    },
+    {
+      "id": 3,
+      "name": "Joyner Head",
+      "position": "Defensive midfield",
+      "country": "Bosnia and Herzegovina",
+      "birth": "04/22/1987"
+    },
+    {
+      "id": 4,
+      "name": "Dunlap Cooley",
+      "position": "Wing-back",
+      "country": "Iceland",
+      "birth": "10/04/1999"
+    },
+    {
+      "id": 5,
+      "name": "Walters Salinas",
+      "position": "Centre forward",
+      "country": "Korea (North)",
+      "birth": "12/14/1990"
+    },
+    {
+      "id": 6,
+      "name": "Mcneil Miranda",
+      "position": "Wing-back",
+      "country": "Tajikistan",
+      "birth": "12/02/1994"
+    },
+    {
+      "id": 7,
+      "name": "Knight Melendez",
+      "position": "Attacking midfield",
+      "country": "Christmas Island",
+      "birth": "04/24/1993"
+    },
+    {
+      "id": 8,
+      "name": "Miller Rivas",
+      "position": "Attacking midfield",
+      "country": "Morocco",
+      "birth": "08/03/1995"
+    },
+    {
+      "id": 9,
+      "name": "Davenport Peterson",
+      "position": "Winger",
+      "country": "China",
+      "birth": "04/20/1998"
+    },
+    {
+      "id": 10,
+      "name": "Tyson Duran",
+      "position": "Centre midfield",
+      "country": "Aruba",
+      "birth": "11/02/1980"
+    },
+    {
+      "id": 11,
+      "name": "Bean Carey",
+      "position": "Winger",
+      "country": "Grenada",
+      "birth": "12/03/1983"
+    },
+    {
+      "id": 12,
+      "name": "Jennings Craft",
+      "position": "Winger",
+      "country": "Bolivia",
+      "birth": "09/27/1991"
+    },
+    {
+      "id": 13,
+      "name": "Campbell Scott",
+      "position": "Winger",
+      "country": "Australia",
+      "birth": "12/15/1982"
+    },
+    {
+      "id": 14,
+      "name": "Harding Wilkins",
+      "position": "Second striker",
+      "country": "Heard and McDonald Islands",
+      "birth": "05/08/1986"
+    },
+    {
+      "id": 15,
+      "name": "Silva Howell",
+      "position": "Centre midfield",
+      "country": "Solomon Islands",
+      "birth": "08/24/1988"
+    },
+    {
+      "id": 16,
+      "name": "Benjamin Watkins",
+      "position": "Attacking midfield",
+      "country": "Qatar",
+      "birth": "01/05/1989"
+    },
+    {
+      "id": 17,
+      "name": "Fitzgerald Figueroa",
+      "position": "Full-back",
+      "country": "Austria",
+      "birth": "10/17/1985"
+    },
+    {
+      "id": 18,
+      "name": "Herman Cohen",
+      "position": "Centre midfield",
+      "country": "Wallis and Futuna Islands",
+      "birth": "03/31/1987"
+    },
+    {
+      "id": 19,
+      "name": "Vasquez Pate",
+      "position": "Centre midfield",
+      "country": "Andorra",
+      "birth": "05/12/1999"
+    },
+    {
+      "id": 20,
+      "name": "Guy Ward",
+      "position": "Goalkeeper",
+      "country": "Cook Islands",
+      "birth": "09/23/1997"
+    }
+  ]
